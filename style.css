@@ -1,0 +1,101 @@
+*{
+    background-color: skyblue;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+    color: #333;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.container{
+    margin-top: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.btn{
+    gap: 10px;
+    display: grid;
+    grid-template-areas: "I1 I1 I1 I1"
+                            "I2 I3 I4 I12"
+                            "I5 I6 I7 I13"
+                            "I8 I9 I10 I14"
+                            "I15 I11 I16 I17";
+}
+.pad{
+    padding: 20px;
+    font-size: larger;
+    background-color: white;
+    transition: transform 0.3s ease-in-out;
+}
+input{
+    grid-area: I1;
+    width: 100%;
+    padding: 25px;
+    font-size: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.btn_1{
+    grid-area:I2;
+}
+.btn_2{
+    grid-area:I3;
+}
+.btn_3{
+    grid-area:I4;
+}
+.btn_4{
+    grid-area:I5;
+}
+.btn_{
+    grid-area:I6;
+}
+.btn_6{
+    grid-area:I7;
+}
+.btn_7{
+    grid-area:I8;
+}
+.btn_8{
+    grid-area:I9;
+}
+.btn_9{
+    grid-area:I10;
+}
+.btn_0{
+    grid-area:I11;
+}
+.btn_clear{
+    grid-area:I12;
+}
+.btn_add{
+    grid-area:I13;
+}
+.btn_sub{
+    grid-area:I14;
+}
+.btn_mul{
+    grid-area:I15;
+}
+.btn_div{
+    grid-area:I16;
+}
+.btn_equals{
+    grid-area:I17;
+}
+button:hover{
+    transform: scale(1.1);
+    background-color:lightgray;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #555;
+    font-family: 'Arial', sans-serif;
+}
